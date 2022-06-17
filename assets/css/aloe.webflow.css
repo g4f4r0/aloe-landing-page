@@ -289,7 +289,8 @@ figcaption {
 .main_section.increased-padding.hero {
   padding-top: 80px;
   padding-bottom: 120px;
-  background-color: #feea59;
+  background: #feea59 url(../img/hero.jpg) no-repeat center top;
+  background-size: contain;
 }
 
 .main_section.no-bottom-padding {
@@ -386,9 +387,9 @@ figcaption {
 }
 
 .large-text.hero {
-  max-width: 60%;
+  max-width: 50%;
   color: #181818;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .small-text {
@@ -2207,7 +2208,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 120px;
+  margin-bottom: 320px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2339,11 +2340,12 @@ figcaption {
 }
 
 .hero_title {
-  margin-bottom: 40px;
-  font-size: 120px;
+  margin-bottom: 30px;
+  font-size: 72px;
   line-height: 0.9;
   font-weight: 900;
   text-transform: none;
+  max-width: 60%;
 }
 
 .hero_container {
@@ -3217,7 +3219,7 @@ figcaption {
   }
 
   .hero_content {
-    margin-bottom: 80px;
+    margin-bottom: 230px;
   }
 
   .round_btn {
@@ -3230,6 +3232,13 @@ figcaption {
 
   .hero_title {
     font-size: 42px;
+    max-width: 100%
+  }
+
+  .main_section.increased-padding.hero {
+    
+    background: #feea59 url(../img/hero.jpg) no-repeat center 320px;
+    
   }
 
   .newsletter_div {
